@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004EA8;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logo-container img {
+    max-height: 100px;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #004EA8;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Set the background color for the hero section */
+#hero {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(37, 122, 213, 0.8)), url('hero-image.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 120px 0;
+}
+
+/* Style the hero content */
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Style the call-to-action buttons */
+.cta-buttons {
+    margin-top: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #2232a9;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Set the background color for the about section */
+#about {
+    background-color: #fff;
+    color: #333;
+    padding: 80px 0;
+}
+
+/* Add styles for other sections as needed */
+
+/* Set the background color for the footer */
+footer {
+    background-color: #ffffff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+/* Styles for the Signup form section */
+#signup-form {
+    background-color: #f0f0f0;
+    text-align: center;
+    color: #333;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#signup-form h2 {
+    margin-bottom: 1rem;
+}
+
+#signup-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#signup-form input[type="text"],
+#signup-form input[type="email"],
+#signup-form input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#signup-form input[type="submit"] {
+    display: block;
+    background-color: #1531af;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+}
+
+#signup-form input[type="submit"]:hover {
+    background-color: #064991;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.logo-container img {
+    width: 100px;
+    height: auto;
+}
